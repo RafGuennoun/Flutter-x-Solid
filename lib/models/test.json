@@ -1,0 +1,70 @@
+[
+  {
+    "@id": "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+  },
+
+  {
+    "@id": "http://www.w3.org/ns/ldp#BasicContainer"
+  },
+
+  {
+    "@id": "http://www.w3.org/ns/ldp#Container"
+  },
+
+  {
+    "@id": "http://www.w3.org/ns/ldp#Resource"
+  },
+
+  {
+    "@id": "https://rafikguennoun.solidcommunity.net/profile",
+
+    "@type": 
+        [
+        "http://www.w3.org/ns/ldp#BasicContainer",
+        "http://www.w3.org/ns/ldp#Container"
+        ],
+
+    "http://purl.org/dc/terms/modified": 
+        [
+            {
+                "@value": "2022-04-15T16:32:31Z",
+                "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+        ],
+
+    "http://www.w3.org/ns/ldp#contains": 
+        [
+            { "@id": "https://rafikguennoun.solidcommunity.net/profilecard" }
+        ],
+
+    "http://www.w3.org/ns/posix/stat#mtime": 
+        [
+            {
+                "@value": "1650040351.932",
+                "@type": "http://www.w3.org/2001/XMLSchema#decimal"
+            }
+        ],
+        
+    "http://www.w3.org/ns/posix/stat#size": [{ "@value": 4096 }]
+  },
+  {
+    "@id": "https://rafikguennoun.solidcommunity.net/profilecard",
+    "@type": [
+      "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+      "http://www.w3.org/ns/ldp#Resource"
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@value": "2022-04-15T16:45:03Z",
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+      }
+    ],
+    "http://www.w3.org/ns/posix/stat#mtime": [
+      {
+        "@value": "1650041103.668",
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal"
+      }
+    ],
+    "http://www.w3.org/ns/posix/stat#size": [{ "@value": 1017 }]
+  }
+]
